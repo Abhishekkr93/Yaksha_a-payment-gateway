@@ -1,0 +1,341 @@
+
+.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  text-align: center;
+  padding: 12px;
+  margin: 0px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #000;
+}
+
+.active {
+  background-color: #0a91df;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Trirong');
+
+/* Global */
+html{
+  min-height: 100%;
+  overflow: hidden;
+}
+body{
+  height: calc(100vh - 8em);
+  padding: 0em;
+  margin: 0em;
+  color: rgba(255, 255, 255, 0.911);
+  font-family: "Trirong", serif;
+  background-color: rgb(25,25,25);  
+}
+.line-1{
+    position: relative;
+    top: 55%;  
+    width: 24em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255, 255, 255, 0.925);
+    font-size: 400%;
+    text-shadow: 3px 3px 3px #f8d50c;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);    
+}
+
+/* Animation */
+.anim-typewriter{
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+             blinkTextCursor 600ms steps(44) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 24em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
+
+@media screen and (max-width: 500px) {
+  .line-1 a {
+    float: none;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .anim-typewriter a {
+    float: none;
+    display: block;
+  }
+}
+
+.button {
+  background: hsl(200, 5%, 12%);
+  text-align: center;
+  padding: 0px;
+  margin: 160px;
+  left: 492px;
+  position: absolute;
+  bottom: 10%;
+  font-family: Comic Sans MS;
+}
+
+.button {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  background: rgb(24, 158, 6);
+  padding: 15px 50px;
+  border-radius: 4px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  transition: all 0.2s ease-in-out;
+}
+
+.glow-button:hover {
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 5px 15px rgba(70, 209, 77, 0.4);
+}
+
+@media screen and (max-width: 500px) {
+  .button a {
+    float: none;
+    display: block;
+  }
+}
+@media screen and (max-width: 500px) {
+  .glow-button:hover a {
+    float: none;
+    display: block;
+  }
+}
+
+.about {
+  text-align: center;
+  margin: 40px;
+  font-size: 60px;
+}
+
+.navbar-right {
+  float: right;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar-right a {
+    float: none;
+    display: block;
+  }
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: rgba(255, 255, 255, 0.945);
+  text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+  .about a {
+    float: none;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .footer a {
+    float: none;
+    display: block;
+  }
+}
+
+.donation {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 130px;
+}
+
+.pay {
+  text-align: center;
+  font-size: 50px;
+  margin: 20px;
+}
+
+.symbol {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 70px;
+}
+
+h2{
+  text-align: center;
+  margin: 20px;
+  font-weight: lighter;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color: #e9c80f;
+}
+.donatebox
+{
+  padding: 0px;
+  text-align: center;
+  color: #fff;
+  margin: 170px;
+  position: absolute;
+  bottom: 10%;
+  left: 492px;
+}
+
+
+#title-Tag-Line {
+  font-size: 20px;
+}
+/* .card-item__bg{
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  display: block;
+  position: relative;
+  margin: 30px auto;
+  transform: translate(0px, 50px);
+  z-index: 5;
+} */
+
+/* form animation starts */
+.form {
+  background: #fff;
+  box-shadow: 0 30px 60px 0 rgba(90, 116, 148, 0.4);
+  border-radius: 5px;
+  max-width: 480px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  left: 0;
+  right: 0;
+  position: absolute;
+  border-top: 5px solid #0e3721;
+/*   z-index: 1; */
+  animation: bounce 1.5s infinite;
+}
+::-webkit-input-placeholder {
+  font-size: 1.3em;
+}
+
+.title{
+  display: block;
+  font-family: sans-serif;
+  margin: 10px auto 5px;
+  width: 300px;
+}
+.pageTitle{
+  font-size: 3em;
+  font-weight: bold;
+  text-align: center;
+  color: #000;
+}
+.secTitle{
+  color: rgb(78, 6, 6);
+  text-align: center;
+}
+
+.name {
+  background-color: #ebebeb;
+  color: white;
+}
+.name:hover {
+  border-bottom: 5px solid #0e3721;
+  height: 30px;
+  width: 380px;
+  transition: ease 0.5s;
+}
+
+.email {
+  background-color: #ebebeb;
+  height: 2em;
+}
+
+.email:hover {
+  border-bottom: 5px solid #0e3721;
+  height: 30px;
+  width: 380px;
+  transition: ease 0.5s;
+}
+
+.message {
+  background-color: #ebebeb;
+  overflow: hidden;
+  height: 10rem;
+}
+
+.message:hover {
+  border-bottom: 5px solid #0e3721;
+  height: 12em;
+  width: 380px;
+  transition: ease 0.5s;
+}
+
+.formEntry {
+  display: block;
+  margin: 30px auto;
+  min-width: 300px;
+  padding: 10px;
+  border-radius: 2px;
+  border: none;
+  transition: all 0.5s ease 0s;
+}
+
+.submit {
+  width: 200px;
+  color: white;
+  background-color: #0e3721;
+  font-size: 20px;
+}
+
+.submit:hover {
+  box-shadow: 15px 15px 15px 5px rgba(78, 72, 77, 0.219);
+  transform: translateY(-3px);
+  width: 300px;
+  border-top: 5px solid #0e3750;
+  border-radius: 0%;
+}
+
+@keyframes bounce {
+  0% {
+    tranform: translate(0, 4px);
+  }
+  50% {
+    transform: translate(0, 8px);
+  }
+} 
+
+
