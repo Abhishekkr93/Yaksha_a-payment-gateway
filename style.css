@@ -95,7 +95,7 @@ body{
   margin: 160px;
   left: 35%;
   position: absolute;
-  bottom: 20%;
+  bottom: 10%;
   font-family: Comic Sans MS;
 }
 
@@ -208,7 +208,7 @@ h2{
   text-align: center;
   color: #fff;
   position: absolute;
-  bottom: 40%;
+  bottom: 10%;
   left: 45%;
 }
 
