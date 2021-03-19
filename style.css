@@ -93,9 +93,9 @@ body{
   text-align: center;
   padding: 0px;
   margin: 160px;
-  left: 492px;
+  left: 35%;
   position: absolute;
-  bottom: 10%;
+  bottom: 20%;
   font-family: Comic Sans MS;
 }
 
@@ -207,10 +207,9 @@ h2{
   padding: 0px;
   text-align: center;
   color: #fff;
-  margin: 170px;
   position: absolute;
-  bottom: 10%;
-  left: 492px;
+  bottom: 40%;
+  left: 45%;
 }
 
 
@@ -240,6 +239,7 @@ h2{
   margin-right: auto;
   padding-top: 5px;
   padding-bottom: 5px;
+  margin-top: 50px;
   left: 0;
   right: 0;
   position: absolute;
@@ -270,7 +270,7 @@ h2{
 
 .name {
   background-color: #ebebeb;
-  color: white;
+  color: black;
 }
 .name:hover {
   border-bottom: 5px solid #0e3721;
